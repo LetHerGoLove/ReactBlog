@@ -1,0 +1,8 @@
+
+.Pic3D {background:rgba(255,241,241,0.9);}
+.Pic3D ul{ width:133px; height:200px;  margin:200px auto; position:relative; 
+    -webkit-transform-style:preserve-3d; -webkit-transform:perspective(800px) rotateX(-15deg);}
+.Pic3D ul li{ height:100%; width:100%; position:absolute; top:0; left:0; 
+    background:url(../images/img3/1.jpg); -webkit-transition:1s all ease; 
+    box-shadow:0 0 10px #FFF,0 0 20px #FFF,0 0 30px #FFF; 
+    -webkit-box-reflect:below 20px -webkit-linear-gradient(rgba(0,0,0,0) 40%,rgba(0,0,0,0.4));}
